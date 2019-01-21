@@ -5,7 +5,15 @@ class Book
 
   def title
     @title
-    # return "And Then There Were None"
   end
+
+  def author=(author)
+    @auther = auther
+  end
+
+  def author
+    @author
+  end
+
 
 end
